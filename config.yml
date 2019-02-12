@@ -1,0 +1,14 @@
+# Синхронизировать список заблокированных IP-адресов с Windows Firewall при старте программы
+SyncBanListOnLoad: true
+# Выводить в лог страну, к кторой относится подключённый IP-адрес
+ShowCountyName: false
+# Прослушивать следующие протоколы
+ListenProtocols: TCP, UDP
+# IP-адреса, которые не будут подвергаться проверкам на VPN
+Whitelist:
+- 127.0.0.1
+- 10.0.0.0
+# Использовать новое API IPHub, если имеется ключ. Чтобы получить ключ, зарегистрируйтесь на сайте iphub.info
+NewIPHubAPI:
+  UseNewAPI: false
+  Key: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
